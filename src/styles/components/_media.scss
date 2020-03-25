@@ -1,0 +1,282 @@
+@media (min-width: 1400px){
+    html {
+        font-size: 73%;
+      }
+}
+@media(width: 1024px) and (height: 1366px){
+    html{
+        font-size: 85%;
+    }
+    .header--h1{
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+    .generate--form-container{
+        h1{
+            font-size: 4rem;
+        }
+    }
+    .generate--form-select {
+        font-size: 2rem;
+    }
+    .button {
+        height: 100px;
+        width: 70%;
+    }
+    .random-workout--inner-container{
+        p{
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+        }
+    }
+    .random-workout--item {
+        width: 85%;
+    }
+    .landing--container--h1 {
+        font-size: 6rem;
+        margin-top: unset;
+    }
+    .landing--container span {
+        margin-top: -10px;
+        font-size: 2rem;
+    }
+    .button__landing {
+        padding: 28px 36px
+    }
+    .landing--container .fa-dumbbell {
+        font-size: 3.5rem;
+        left: -60px;
+    }
+    .landing--container .fa-dumbbell:nth-of-type(2) {
+        left: -73px;
+    }
+    .random-workout--inner-container {
+        height: 265px;
+    }
+}
+@media (max-width: 768px){
+    a{
+        font-size: 2rem;;
+    }
+    .container {
+        width: 95%;
+    }
+    .dashboard--container {
+        min-width: 95%;
+    }
+    .header--h1{
+        margin-top: 5px;
+        a{
+            font-size: 4rem;;
+
+        }
+    }
+    .generate--form-container{
+        h1{
+            font-size: 4rem;;
+        }
+    }
+    .generate--form-select {
+        font-size: 2.15rem;
+    }
+    .random-workout--inner-container{
+        height: 250px;
+        width: 85%;
+        .random-workout__placeholder{
+            text-align: center;
+        }
+        p{
+            font-size: 1.75rem;
+            text-align: left;
+        }
+    }
+
+    .button__save__individual-workout {
+        padding: 10px 20px;
+    }
+    .button--container span {
+        font-size: 1.85rem;
+    }
+    .saved--workout-wrapper p, .saved--workout-details + a {
+        font-size: 1.75rem;
+    }
+    .saved--title {
+        font-size: 4rem;
+        h2{
+            font-size: 1.75rem;
+        }
+    }
+    .help {
+        width: 93%;
+    }
+    .help--h1 {
+        font-size: 2.75rem;
+        text-align: center;
+    }
+
+    .help .help--list-container ol {
+        padding-left: 15px;
+        li{
+            font-size: 1.85rem;
+            text-align: justify;
+            width: 85%;
+        }
+    }
+    .iconDiv {
+        font-size: .9rem;
+        a{
+          font-size: .9rem;
+        }
+      }
+}
+@media (max-width: 650px){
+    .container {
+        width: 95%;
+    }
+    .dashboard--container {
+        min-width: 95%;
+    }
+    .generate--form h1 {
+        font-size: 3.5rem;
+    }
+    .generate--form-select {
+        width: 80%;
+    }
+    .button {
+        font-size: 1.75rem;
+        height: 100px;
+        letter-spacing: 3px;
+        width: 85%;
+    }
+    .random-workout--inner-container {
+        height: 275px;
+        width: 100%;
+    }
+    .random-workout--item {
+        width: 92%;
+    }
+    .random-workout--inner-container p {
+        font-size: 1.78rem;
+    }
+    .button--container span {
+        font-size: 1.65rem;
+    }
+    .saved--title {
+        font-size: 3.5rem;
+    }
+    .saved--title h2 {
+        font-size: 1.5rem;
+    }
+    .saved--workout-wrapper {
+        width: 85%;
+    }
+    .landing--container--h1 {
+        font-size: 6rem;
+        margin-bottom: unset;
+        text-align: center;
+    }
+    .landing--container span {
+        font-size: 2rem;
+        margin-top: unset;
+    }
+    .button__landing {
+        font-size: 2.25rem;
+        outline: none;
+        padding: 30px 30px;
+        width: 85%;
+    }
+    .landing--container .fa-dumbbell {
+        font-size: 4rem;
+        left: -55px;
+        &:nth-of-type(2){
+            left: -70px;
+        }
+    }
+    .help {
+        width: 93%;
+    }
+    .help--h1 {
+        font-size: 2.75rem;
+        text-align: center;
+    }
+    .help .help--list-container ol {
+        li{
+            font-size: 1.75rem;
+        }
+    }
+    .iconDiv {
+      font-size: .75rem;
+      a{
+        font-size: .75rem;
+      }
+    }
+}
+@media (max-width: 375px){
+    .header {
+        padding: 0 17px;
+        ul li{
+            text-align: right;
+        }
+    }
+    .generate--form-container h1 {
+        font-size: 3rem;
+    }
+    .generate--form--select {
+        font-size: 2rem;
+    }
+    .button{
+        font-size: 1.5rem;
+        width: 95%;
+    }
+    .random-workout--container {
+        text-align: center;
+        width: 95%;
+    }
+    .button--container span {
+        font-size: 1.5rem;
+    }
+    .button__landing {
+        font-size: 2.25rem;
+        outline: none;
+        padding: 10px 30px;
+        width: 85%;
+    }
+    .saved--title {
+        font-size: 3rem;
+    }
+    .saved--workout-wrapper {
+        width: 95%;
+    }
+}
+@media (max-width: 335px){
+    header{
+        a{
+            font-size: 1.55rem;
+        }
+    }
+    .saved--workout-wrapper p, .saved--workout-details + a {
+        font-size: 1.45rem;
+    }
+    .saved--title {
+        font-size: 2.75rem;
+    }
+    .saved--title h2 {
+        font-size: 1.4rem;
+    }
+    .generate--form-container h1 {
+        font-size: 2.75rem;
+    }
+    .random-workout--inner-containerr p {
+        font-size: 1.45rem;
+    }
+    .button__save--individual-workout {
+        padding: 5px 17px;
+    }
+    .landing--container .fa-dumbbell {
+        font-size: 3.5rem;
+        left: -45px;
+        &:nth-of-type(2){
+            left: -55px;
+        }
+    }
+}
