@@ -23,10 +23,12 @@
 .header--h1{
   color: $white;
   font-family: $font-fugaz;
-  font-size: 4rem;
   padding-top: 10px;
   position: relative;
   margin-left: 35px;
+  a{
+    font-size:3.5rem;
+  }
 }
 .fa-dumbbell{
   font-size: 2.5rem;
